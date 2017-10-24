@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+/*
+ * jQuery File Upload Plugin CSS Example
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * https://opensource.org/licenses/MIT
+ */
+
+body {
+    font-family: 'Open Sans', sans-serif!important;
+    font-weight: 600
+}
+
+input.form-control {
+    padding: 5px 9px!important;
+}
+
+.table>tbody>tr>td {
+    vertical-align: middle!important;
+}
+
+.table.dataTable tbody td {
+    padding: 12px 10px!important;
+}
+
+.table.dataTable {
+    margin-bottom: 15px;
+}
+
+table.dataTable thead th {
+    background-image: none!important;
+    background-color: #fff;
+    border-top: 1px solid #ddd!important;
+    border-bottom: 0!important
+}
+
+table.dataTable.no-footer,
+table.dataTable tfoot th,
+table.dataTable tfoot td {
+    border-color: #ddd!important
+}
+
+.dataTables_length,
+.dataTables_filter {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.dataTables_info {
+    font-weight: 300
+}
+
+.paginate_button {
+    background: #fff;
+    border-color: #ddd;
+    border-radius: 0!important
+}
+
+a.paginate_button:hover {
+    color: #000!important
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #333 !important;
+    border: 1px solid #333333;
+    background-color: #f9f9f9;
+    background: none!important
+}
+
+.paginate_button.previous,
+.paginate_button.next {
+    border-color: transparent!important;
+    color: #ddd!important
+}
+
+.dataTables_wrapper input[type=search] {
+    height: 20px!important;
+    margin-left: 15px!important;
+}
+
+input.form-control,
+input,
+textarea {
+    font-weight: 300!important;
+    resize: none;
+}
+
+.nav-list>li>a {
+    font-weight: 400
+}
+
+.no-skin .sidebar,
+.no-skin .nav-list>li>a,
+.no-skin .sidebar-toggle,
+.breadcrumbs {
+    background-color: #ffffff!important;
+}
+
+.no-skin .sidebar {
+    border-color: #438eb9!important;
+}
+
+.sidebar .sidebar-toggle:before {
+    display: none!important;
+}
+
+.ace-nav>li.light-blue>a {
+    background: #438eb9!important;
+}
+
+.no-skin .navbar .navbar-toggle {
+    background-color: transparent!important;
+}
+
+.navbar {
+    padding: 3px 0;
+}
+
+.login-layout,
+.login-layout .widget-box .widget-main {
+    background: #fff!important
+}
+
+.login-layout .login-box .widget-main {
+    padding-bottom: 36px!important
+}
+
+.login-layout .widget-box {
+    padding: 2px!important;
+    background-color: #428bca!important;
+}
+
+.page-header {
+    padding-top: 16px!important;
+}
+
+ul.filter-by-currency {
+    list-style: none;
+    float: right;
+    width: 267px;
+}
+
+ul.filter-by-currency > li {
+    display: inline-block;
+}
+
+ul.filter-by-currency > li:first-child {
+    font-weight: 400
+}
+
+ul.filter-by-currency > li:last-child {
+    display: inline-block;
+    width: 55%;
+    padding-left: 15px;
+}
+
+.ace-nav>li#notifications {
+    left: 9px!important;
+}
+
+.ace-nav>li {
+    border: 0!important;
+}
+
+.ace-nav>li>a {
+    background-color: transparent!important;
+}
+
+.ace-nav>li#notifications>a>.badge {
+    top: -11px!important;
+    left: -14px!important;
+}
+
+.dropdown-menu.dropdown-close.dropdown-menu-right {
+    right: 20px!important;
+}
+
+#form-submission-1 tbody>tr>td:first-child,
+#form-submission-2 tbody>tr>td:first-child,
+#form-submission-3 tbody>tr>td:first-child {
+    text-align: center;
+}
+
+.no-sort::after {
+    display: none!important;
+}
+
+.no-sort {
+    cursor: default!important;
+}
+
+.label {
+    height: auto!important;
+    padding: 10px!important;
+}
+
+@media (max-width: 760px) {
+    ul.filter-by-currency {
+        float: none;
+        width: 100%;
+        margin-left: 10px;
+        margin-top: 20px
+    }
+    .ace-nav .nav-user-photo {
+        display: none;
+    }
+    .ace-nav>li {
+        border-color: #438eb9!important;
+    }
+}

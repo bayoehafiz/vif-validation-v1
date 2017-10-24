@@ -1,0 +1,23 @@
+{
+  "name": "victory-form-submission",
+  "version": "1.0.0",
+  "description": "form submission for accounting central",
+  "main": "index.js",
+  "dependencies": {
+    "noty": "^3.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mssteam/victory-form-submission.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mssteam/victory-form-submission/issues"
+  },
+  "homepage": "https://github.com/mssteam/victory-form-submission#readme"
+}
